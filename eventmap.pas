@@ -63,7 +63,7 @@ end;
 
 procedure TGenericEventMap<T>.RemoveListener(Name: AnsiString);
 begin
-  fEvents.Remve(Name);
+  fEvents.Remove(Name);
 end;
 
 function TGenericEventMap<T>.Exists(Name: AnsiString): Boolean;
